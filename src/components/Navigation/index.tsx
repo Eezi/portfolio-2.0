@@ -7,7 +7,7 @@ const Header: FC<{}> = (): ReactElement => {
     return (
       <div>
   <div className="hidden md:block">
-<header className="flex flex-row justify-between items-center space-x-4 bg-gray-800 py-6 px-6">
+<header className="flex text-primary flex-row justify-between items-center space-x-4 bg-gray-800 py-6 px-6">
   <Link to="/">
     <h5 className="text-green-300 text-xl font-mono">Tomi Salo</h5>
   </Link>
