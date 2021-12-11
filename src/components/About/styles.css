@@ -1,0 +1,24 @@
+.container {
+  color: #fff;
+  font-weight: normal;
+}
+
+.header {
+  display: inline;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #fff;
+}
+.yearDiv {
+  position: relative;
+}
+.yearDiv::after {
+  display: block;
+  content: '';
+  width: 3px;
+  height: 1.2rem;
+  background: #fff;
+  position: absolute;
+  margin-left: 17px;
+  bottom: 6;
+  left: 0;
+}

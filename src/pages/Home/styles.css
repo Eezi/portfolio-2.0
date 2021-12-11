@@ -1,14 +1,25 @@
 .main-title {
     position: relative;
+    color: #fff;
   }
   
   .main-title::after {
-    content: '';
+    display: block;
+   content: '';
+  width: 7.5rem;
+  height: 3px;
+  background: #7c3aed;
+  position: absolute;
+  bottom: 10;
+  left: 0;
+
+
+    /*content: '';
     width: 50%;
     height: 3px;
     background: linear-gradient(90deg, hsla(181, 70%, 58%, 1) 0%, hsla(216, 20%, 95%, 0.6) 100%);
-    /*background: linear-gradient(90deg, hsla(216, 20%, 95%, 1) 0%, hsla(181, 70%, 58%, 0.9) 50%, hsla(216, 20%, 95%, 0.6) 100%);*/
+    background: linear-gradient(90deg, hsla(216, 20%, 95%, 1) 0%, hsla(181, 70%, 58%, 0.9) 50%, hsla(216, 20%, 95%, 0.6) 100%);
     position: absolute;
     left: 0;
-    bottom: -0.1em;
+    bottom: -0.1em;*/
   } 

@@ -12,8 +12,8 @@ const Header: FC<{}> = (): ReactElement => {
     <h5 className="text-green-300 text-xl font-mono">Tomi Salo</h5>
   </Link>
   <nav className="flex flex-row space-x-6 font-semibold">
-    <Link to="/about" className="text-green-300 hover:underline font-mono">About</Link>
-    <Link to="/about" className="text-green-300 hover:underline font-mono">Blog</Link>
+    <Link to="/" className="text-green-300 hover:underline font-mono">Home</Link>
+    <Link to="/blog" className="text-green-300 hover:underline font-mono">Blog</Link>
     <Link to="/projects" className="text-green-300 hover:underline font-mono">Projects</Link>
   </nav>
 </header>
