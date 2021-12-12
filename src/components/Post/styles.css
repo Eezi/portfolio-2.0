@@ -1,0 +1,9 @@
+.imgDiv {
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.imgDiv:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

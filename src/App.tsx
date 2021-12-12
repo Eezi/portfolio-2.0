@@ -6,6 +6,7 @@ import {
 } from "react-transition-group";
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Blogs from './pages/Blogs';
 import Header from './components/Navigation';
 import Footer from './components/Footer';
 import './styles/output.css'
@@ -32,6 +33,7 @@ const App: FC = (): ReactElement => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
+        <Route exact path="/blog" component={Blogs} />
       </Switch>
       </CSSTransition>
       </TransitionGroup>

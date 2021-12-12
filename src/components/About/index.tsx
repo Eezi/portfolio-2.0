@@ -19,8 +19,10 @@ const YearPart: FC<Props> = ({ text, year, isLast }) => {
 
 const Bio = () => {
   return (
-    <div className="mt-10 w-96 container">
-        <h5 className="text-xl mb-5 header">About</h5>
+    <div className="mt-10 max-w-xs container">
+        <div className="mb-3">
+          <h5 className="text-xl header">About</h5>
+        </div>
         <p>
           Im full-stack developer with passion to solve real life problems with code and enjoying to design simple and beatiful UIs. In my free time my biggest passion is climbing.
         </p>
