@@ -15,7 +15,7 @@ const App: FC = (): ReactElement => {
   //const location = useLocation();
   return (
     <Router>
-      <div className="font-mono text-primary bg-gray-800 font-semibold min-h-screen">
+      <div className="font-mono text-primary bg-mainBg font-semibold min-h-screen">
       <Header />
       <div className="md:px-52 px-8 pt-8">
     <TransitionGroup>

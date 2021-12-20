@@ -8,7 +8,7 @@ interface CardProps {
   }
 
 const Card: FC<CardProps> = ({ title, description, imgPath, url }) => (
-        <div style={{ position: 'relative' }} className="bg-gray-900 rounded-lg max-w-xs mb-5 mx-4">
+        <div style={{ position: 'relative' }} className="bg-black rounded-lg max-w-xs mb-5 mx-4">
             <img src={imgPath} alt=""
                 className="w-full z-0 h-48 transition duration-300 rounded-t-lg sm:h-56 opacity-80 hover:opacity-100" />
 

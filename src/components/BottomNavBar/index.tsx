@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BottomNavbar = () => (
     
-<nav className="fixed bottom-0 z-10 text-primary inset-x-0 bg-gray-900 flex justify-between text-sm uppercase font-mono md:invisible">
+<nav className="fixed bottom-0 z-10 text-primary inset-x-0 bg-mainBg flex justify-between text-sm uppercase font-mono md:invisible">
 
   <Link to="/" className="w-full block py-4 text-center hover:text-gray-900 transition duration-300">
     <svg className="w-6 h-6 mb-2 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

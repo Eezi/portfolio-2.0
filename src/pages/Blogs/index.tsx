@@ -4,7 +4,7 @@ import { blogs } from '../../TextContent/texts';
 
 const Projects: FC<{}> = ():ReactElement => {
     return (
-    <div className="mb-20 mx-auto w-1/2">
+    <div className="mb-20 mx-auto pb-16 w-1/2">
     <h3 className="text-center mb-5 md:text-3xl text-xl">My posts</h3>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 content-center">
         {blogs.map((post) => (
