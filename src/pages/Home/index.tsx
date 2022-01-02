@@ -7,7 +7,7 @@ import './styles.css'
 const Home: FC<{}> = (): ReactElement => {
 
     return (
-        <div>
+        <>
         <div className="md:text-3xl text-xl leading-normal">
             <h2 className="text-3xl">Tomi Salo</h2>
             <h5 className="text-xl main-title">Full-stack developer</h5>
@@ -17,7 +17,7 @@ const Home: FC<{}> = (): ReactElement => {
         </div>
         <About />
         <Bio />
-</div>
+      </>
     );
 }
 

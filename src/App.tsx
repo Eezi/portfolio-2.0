@@ -17,7 +17,7 @@ const App: FC = (): ReactElement => {
     <Router>
       <div className="font-mono text-primary bg-mainBg font-semibold min-h-screen">
       <Header />
-      <div className="md:px-52 px-8 pt-8">
+      <div className="flex justify-center px-8 pt-8">
     <TransitionGroup>
           {/*
             This is no different than other usage of
