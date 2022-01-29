@@ -24,7 +24,7 @@ const Bio = () => {
           <h5 className="text-xl header">About</h5>
         </div>
         <p>
-          Im full-stack developer with passion to solve real life problems with code and enjoying to design simple and beatiful UIs. In my free time my biggest passion is climbing.
+          Im full-stack developer with passion to solve real life problems with code. I also enjoy designing simple and beatiful UIs. In my free time my biggest passion is climbing.
         </p>
     </div>
   );
