@@ -9,35 +9,33 @@ export const pathDescription = `
 `;
 
 export const projectsContent = [
-    {
-        title: 'Path Visualizer',
-        description: `
-    This path visualizer app has been made by using vue.js and the Dijkstra’s algorithm. 
-    The user can draw their own walls or generate random walls and then scan the grid so the algorithm can find the shortest path.
+  {
+    title: 'Path Visualizer',
+    description: `
+      This path visualizer app was made using Vue.js and the Dijkstra’s algorithm. The users can draw their own walls or generate random walls and then scan the grid so the algorithm can find the shortest path.
     `,
-        imgPath: pathfinder,
-        url: 'https://findshortestpath.herokuapp.com/'
-    },
-    {
-        title: 'ECommerce Platform',
-        description: `
-        This app has been made by using MERN stack and Redux. 
-        Platform has full featured shopping card, users can create accounts, search, rate and buy products with PayPal or credit card and a lot more.
+    imgPath: pathfinder,
+    url: 'https://findshortestpath.herokuapp.com/',
+  },
+  {
+    title: 'ECommerce Platform',
+    description: `
+    This app was made using MERN stack and Redux. The platform has a full-featured shopping cart, and the users can create accounts as well as search, rate and buy products with PayPal or credit card, and a lot more.
     `,
-        imgPath: eCommerce,
-        url: 'https://shoptechapp.herokuapp.com'
-    }
+    imgPath: eCommerce,
+    url: 'https://shoptechapp.herokuapp.com',
+  },
 ];
 
 export const blogs = [
   {
     title: 'Blockchains in a nutshell',
     imgPath: chain,
-    url: 'https://tomias.hashnode.dev/blockchains-in-a-nutshell'
+    url: 'https://tomias.hashnode.dev/blockchains-in-a-nutshell',
   },
   {
     title: 'Crypto wallets',
     imgPath: wallet,
-    url: 'https://tomias.hashnode.dev/crypto-wallets'
+    url: 'https://tomias.hashnode.dev/crypto-wallets',
   },
-]
+];
