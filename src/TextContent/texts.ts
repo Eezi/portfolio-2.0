@@ -2,6 +2,7 @@ import pathfinder from '../assets/pathfinderGif.gif';
 import eCommerce from '../assets/techshop.png';
 import wallet from '../assets/wallet.jpg';
 import chain from '../assets/chain.jpg.jpeg';
+import flexbox from '../assets/flexboox.png';
 
 export const pathDescription = `
     This path visualizer app has been made by using vue.js and the Dijkstra’s algorithm. 
@@ -37,5 +38,10 @@ export const blogs = [
     title: 'Crypto wallets',
     imgPath: wallet,
     url: 'https://tomias.hashnode.dev/crypto-wallets',
+  },
+  {
+    title: 'Flexbox Basics',
+    imgPath: flexbox,
+    url: 'https://tomias.hashnode.dev/flexbox-basics',
   },
 ];
