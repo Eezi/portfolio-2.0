@@ -1,5 +1,6 @@
 import pathfinder from '../assets/pathfinderGif.gif';
 import eCommerce from '../assets/techshop.png';
+import passionLogo from '../assets/passion-logo.png';
 import wallet from '../assets/wallet.jpg';
 import chain from '../assets/chain.jpg.jpeg';
 import flexbox from '../assets/flexboox.png';
@@ -17,6 +18,14 @@ export const projectsContent = [
     `,
     imgPath: pathfinder,
     url: 'https://findshortestpath.herokuapp.com/',
+  },
+  {
+    title: 'Passion Seeker',
+    description: `
+    This app is made for the people who want to find a new passion or hobbie quickly and easily.
+    `,
+    imgPath: passionLogo,
+    url: 'https://passion-finder.herokuapp.com/',
   },
   {
     title: 'ECommerce Platform',

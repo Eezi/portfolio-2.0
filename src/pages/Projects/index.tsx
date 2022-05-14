@@ -1,17 +1,19 @@
-import React, { FC, ReactElement } from 'react'
+import React, { FC, ReactElement } from 'react';
 import Card from '../../components/Card';
 import { projectsContent } from '../../TextContent/texts';
 
-const Projects: FC<{}> = ():ReactElement => {
-    return (
+const Projects: FC<{}> = (): ReactElement => {
+  return (
     <div className="mb-20">
-    <h3 className="text-center mb-5 md:text-3xl text-2xl">Most recent projects</h3>
-    <div className="flex justify-center flex-col md:flex-row">
+      <h3 className="text-center mb-5 md:text-3xl text-2xl">
+        Most recent projects
+      </h3>
+      <div className="flex justify-center flex-col md:flex-row md:flex-wrap">
         {projectsContent.map((project) => (
-         <Card key={project.title} {...project} />
+          <Card key={project.title} {...project} />
         ))}
-    </div> 
+      </div>
     </div>
-    );
-}
+  );
+};
 export default Projects;
