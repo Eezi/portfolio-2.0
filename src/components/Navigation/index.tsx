@@ -1,7 +1,7 @@
-import React, { FC, ReactElement } from "react";
-import "./styles.css";
-import { Link } from "react-router-dom";
-import BottomNavbar from "../BottomNavBar";
+import React, { FC, ReactElement } from 'react';
+import './styles.css';
+import { Link } from 'react-router-dom';
+import BottomNavbar from '../BottomNavBar';
 
 const Header: FC<{}> = (): ReactElement => {
   return (

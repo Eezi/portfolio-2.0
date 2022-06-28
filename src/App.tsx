@@ -1,9 +1,5 @@
 import React, { FC, ReactElement } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -11,7 +7,7 @@ import Blogs from './pages/Blogs';
 import Header from './components/Navigation';
 import Footer from './components/Footer';
 import './styles/output.css';
-// test
+
 const App: FC = (): ReactElement => {
   return (
     <Router>
