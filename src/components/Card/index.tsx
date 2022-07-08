@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import React, { FC } from 'react';
 
 interface CardProps {
   title: string;
@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ title, description, imgPath, url }) => (
   <div
-    style={{ position: 'relative' }}
+    style={{ position: 'relative', color: '#fff' }}
     className="bg-black rounded-lg max-w-xs mb-5 mx-4"
   >
     <img
@@ -28,7 +28,7 @@ const Card: FC<CardProps> = ({ title, description, imgPath, url }) => (
       target="_blank"
       style={{ position: 'absolute', bottom: 0, width: '100%' }}
       href={url}
-      className="w-100 block py-3 mt-3 text-center text-lg font-extrabold text-gray-50 transition duration-300 bg-purple-600 rounded-b-lg hover:bg-purple-700"
+      className="w-100 block py-3 mt-3 text-center text-lg font-extrabold transition duration-300 bg-purple-600 rounded-b-lg hover:bg-purple-700"
     >
       VIEW PROJECT
     </a>

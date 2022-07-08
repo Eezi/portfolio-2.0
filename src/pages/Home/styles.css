@@ -1,11 +1,10 @@
 .main-title {
-    position: relative;
-    color: #fff;
-  }
-  
-  .main-title::after {
-    display: block;
-   content: '';
+  position: relative;
+}
+
+.main-title::after {
+  display: block;
+  content: '';
   width: 7.5rem;
   height: 3px;
   background: #7c3aed;
@@ -13,8 +12,7 @@
   bottom: 10;
   left: 0;
 
-
-    /*content: '';
+  /*content: '';
     width: 50%;
     height: 3px;
     background: linear-gradient(90deg, hsla(181, 70%, 58%, 1) 0%, hsla(216, 20%, 95%, 0.6) 100%);
@@ -22,4 +20,4 @@
     position: absolute;
     left: 0;
     bottom: -0.1em;*/
-  } 
+}
