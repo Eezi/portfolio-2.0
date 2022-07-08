@@ -13,7 +13,7 @@ const Header: FC<Props> = ({ setDarkMode, darkMode }): ReactElement => {
   return (
     <div>
       <div className="hidden md:block">
-        <header className="flex flex-row justify-between items-center space-x-4 bg-white dark:bg-mainBg py-6 px-6">
+        <header className="flex flex-row justify-between items-center space-x-4  py-6 px-6">
           <Link to="/">{/* Own logo here */}</Link>
           <nav className="flex dark:text-primary  flex-row space-x-6 font-semibold">
             <Link to="/" className="hover:underline font-mono">

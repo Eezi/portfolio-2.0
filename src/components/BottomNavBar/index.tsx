@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BottomNavbar = () => (
-  <nav className="fixed bottom-0 z-10 text-primary inset-x-0 bg-mainBg flex justify-between text-sm uppercase font-mono md:invisible">
+  <nav className="fixed bg-mainBg bottom-0 z-10 text-primary inset-x-0 bg-mainBg flex justify-between text-sm uppercase font-mono md:invisible">
     <Link
       to="/"
       className="w-full block py-4 text-center hover:text-gray-900 transition duration-300"

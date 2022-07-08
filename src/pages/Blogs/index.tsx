@@ -1,8 +1,11 @@
-import React, { FC, ReactElement } from 'react';
+import React, { FC, ReactElement, useEffect } from 'react';
 import Post from '../../components/Post';
 import { blogs } from '../../TextContent/texts';
 
-const Projects: FC<{}> = (): ReactElement => {
+const Blogs: FC<{}> = (): ReactElement => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="mb-28">
       <h3 className="text-center mb-5 md:text-3xl text-2xl">My posts</h3>
@@ -14,4 +17,4 @@ const Projects: FC<{}> = (): ReactElement => {
     </div>
   );
 };
-export default Projects;
+export default Blogs;
