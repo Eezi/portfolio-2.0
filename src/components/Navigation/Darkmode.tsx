@@ -4,7 +4,7 @@ import sun from '../../assets/sun.svg';
 
 interface Props {
   isDark: boolean;
-  setDarkMode: (prev: boolean) => void;
+  setDarkMode: (isDark: boolean) => void;
 }
 
 export const Darkmode: FC<Props> = ({ isDark, setDarkMode }) => {
@@ -14,7 +14,7 @@ export const Darkmode: FC<Props> = ({ isDark, setDarkMode }) => {
         width="25px"
         src={moon}
         alt="moon"
-        onClick={() => setDarkMode((prev: boolean) => !prev)}
+        onClick={() => setDarkMode(!isDark)}
         className="hover:cursor-pointer"
       />
     );
@@ -23,7 +23,7 @@ export const Darkmode: FC<Props> = ({ isDark, setDarkMode }) => {
     <img
       width="25px"
       src={sun}
-      onClick={() => setDarkMode((prev: boolean) => !prev)}
+      onClick={() => setDarkMode(!isDark)}
       alt="sun"
       style={{ color: 'yellow' }}
       className="hover:cursor-pointer"

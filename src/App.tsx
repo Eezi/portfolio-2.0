@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import './styles/output.css';
 
 const App: FC = (): ReactElement => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState<boolean>(true);
   return (
     <Router>
       <div className={darkMode ? 'dark' : ''}>
