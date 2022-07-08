@@ -20,8 +20,8 @@ module.exports = {
       //primary: "#80ffdb",
       mainBg: '#111827',
       secondary: '#7400b8',
-      white: colors.white,
       gray: colors.gray,
+      white: colors.white,
       red: colors.red,
       yellow: colors.amber,
       green: colors.emerald,
@@ -712,6 +712,7 @@ module.exports = {
     //textColor: (theme) => theme('colors'),
     textColor: {
       primary: '#00FFD2',
+      light: '#fff',
       //primary: "#80ffdb",
     },
     textOpacity: (theme) => theme('opacity'),
