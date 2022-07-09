@@ -7,7 +7,7 @@ const Projects: FC<{}> = (): ReactElement => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="mb-20">
+    <div className="mb-20 bg-light dark:bg-mainBg">
       <h3 className="text-center mb-5 md:text-3xl text-2xl">
         Most recent projects
       </h3>

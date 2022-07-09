@@ -14,7 +14,7 @@ const App: FC = (): ReactElement => {
   return (
     <Router>
       <div className={darkMode ? 'dark' : ''}>
-        <div >
+        <div className="min-h-screen">
           <Background isDark={darkMode}>
             <div className="font-mono text-back dark:text-light font-semibold">
               <Header setDarkMode={setDarkMode} darkMode={darkMode} />
