@@ -1,4 +1,5 @@
 import React, { FC, useState, useEffect, useRef } from 'react';
+// @ts-ignore
 import GLOBE from 'vanta/dist/vanta.globe.min';
 
 interface Props {
@@ -6,8 +7,12 @@ interface Props {
   isDark: boolean;
 }
 
+interface Vanta {
+  destroy: () => void;
+}
+
 export const Background: FC<Props> = ({ children, isDark }) => {
-  const [vantaEffect, setVantaEffect] = useState(0);
+  const [vantaEffect, setVantaEffect] = useState<Vanta | null>(null);
   const myRef = useRef(null);
   const mobileWidth = window.innerWidth < 500;
   const bgColor = isDark ? '#111827' : '#fff';
